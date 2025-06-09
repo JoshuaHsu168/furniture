@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+}
+header {
+  background-color: #1a1a1a;
+  color: tan;
+  font-family: "Big Shoulders Stencil", sans-serif;
+  font-size: 20px;
+}
+
+.product-card {
+  background-color: darkkhaki;
+  color: black;
+  margin: 10px;
+  font-size: 16px;
+  font-family: "Allerta Stencil", sans-serif;
+}
+button {
+  background-color: maroon;
+  color: goldenrod;
+  font-family: "Big Shoulders Stencil";
+  font-weight: 700;
+}
+
+.product-card button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.product-card,
+header {
+  padding: 20px;
+  border-radius: 8px;
+  border: 3px groove #555;
+}
